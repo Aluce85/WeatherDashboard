@@ -15,7 +15,7 @@
 <body>
   <header class="blog-header col-12 pb-6">
     <div class="col-12 text-center py-7 title">
-      <h1 class="blog-header-logo fw-bold">Luce's Weather Blog</h1>
+      <h1 class="blog-header-logo fw-bold">Luce's Weather Forcast</h1>
     </div>
   </header>
 
@@ -23,12 +23,77 @@
     <div id="searchBar" class="row">
       <div class="col-2 col-md-2 col-xl-2 mt-1">
         <label class="searchLabel">What city would you like?</label>
-          <input id="searchInput" type="text" placeholder="Enter city here"/>
+          <input id="searchInput" type="text" placeholder="ex. Chicago"/>
           <div>
             <button class="searchHistory" type="button" id="searchButton">
               Search for your city
             </button>
             </div>
-    
-</body>
+            <div>
+              <ol id="showHistory">
+              </ol>
+            </div>
+            </div>
+            <div class="col-10 col-md-10 col-xl-10" id="jumbo">
+              <h3 id="cityDay">Location and Day</h3>
+              <img id="iconEl" src="" alt="" />
+              <ul>
+                <li id="windSpeed">Wind Speed:</li>
+                <li id="temp">Temperature:</li>
+                <li id="feelsLike">Feels Like:</li>
+                <li id="humidity">Humidity:</li>
+              </ul>
+            </div>
+          </div>
+        </main>
+        <div class="justify-content-around">
+          <div class="d-flex justify-content-evenly">
+            <div class="card-body">
+              <h6 class="card-title" id="date1">Date</h6>
+              <ul>
+                <img id="card1" src="" alt="">
+                <li id="temp1">Temp:</li>
+                <li id="wind1">Wind:</li>
+                <li id="humid1">Humidity:</li>
+              </ul>
+            </div>
+            <div class="card-body text-dark rounded-3">
+          <h5 class="card-title" id="date2">Date</h5>
+          <ul>
+            <img id="card2" src="" alt="">
+            <li id="temp2">Temp:</li>
+            <li id="wind2">Wind:</li>
+            <li id="humid2">Humidity:</li>
+          </ul>
+        </div>
+        <div class="card-body text-dark rounded-3">
+          <h6 class="card-title" id="date3">Date</h6>
+          <ul>
+            <img id="card3" src="" alt="">
+            <li id="temp3">Temp:</li>
+            <li id="wind3">Wind:</li>
+            <li id="humid3">Humidity:</li>
+          </ul>
+        </div>
+        <div class="card-body text-dark rounded-3">
+          <h6 class="card-title" id="date4">Date</h6>
+          <ul>
+            <img id="card4" src="" alt="">
+            <li id="temp4">Temp:</li>
+            <li id="wind4">Wind:</li>
+            <li id="humid4">Humidity:</li>
+          </ul>
+        </div>
+        <div class="card-body text-dark rounded-3">
+          <h6 class="card-title" id="date5">Date</h6>
+          <ul>
+            <img id="card5" src="" alt="">
+            <li id="temp5">Temp:</li>
+            <li id="wind5">Wind:</li>
+            <li id="humid5">Humidity:</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
