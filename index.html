@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alex's Weather Site</title>
-    <link  rel="stylesheet" href="./assets/style.css" />"
+    <link  rel="stylesheet" href="./assets/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
@@ -13,6 +13,22 @@
 </head>
 
 <body>
+  <header class="blog-header col-12 pb-6">
+    <div class="col-12 text-center py-7 title">
+      <h1 class="blog-header-logo fw-bold">Luce's Weather Blog</h1>
+    </div>
+  </header>
+
+  <main class="row">
+    <div id="searchBar" class="row">
+      <div class="col-2 col-md-2 col-xl-2 mt-1">
+        <label class="searchLabel">What city would you like?</label>
+          <input id="searchInput" type="text" placeholder="Enter city here"/>
+          <div>
+            <button class="searchHistory" type="button" id="searchButton">
+              Search for your city
+            </button>
+            </div>
     
 </body>
 </html>
