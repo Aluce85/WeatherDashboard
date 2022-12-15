@@ -49,6 +49,6 @@ function getWeatherdata(userInput) {
             .then(function (data) {
                 const weatherArray = []
                 const weatherInfo = data
-                for (le3t i = 0; i < weatherInfo.list[i])
+                for (let i = 0; i < weatherInfo.list[i])
             })
         })
